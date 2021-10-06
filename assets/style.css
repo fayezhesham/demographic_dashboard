@@ -1,0 +1,139 @@
+.header{
+    padding-left: 50px;
+}
+
+.theimage{
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.card_container {
+    border-radius: 5px;
+    background-color: #111111;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    height: 200px;
+  }
+
+.title{
+    text-align: center;
+    font-weight: bolder;
+    color: #35c486;
+}
+
+.text{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.textA{
+    text-align:center;
+}
+
+.graph{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right:25px;
+    position: relative;
+    
+}
+
+.graph1{
+    padding-top:10px;
+    padding-left:25px;
+    padding-right:30px;
+}
+
+.graph2{
+    padding-top:10px;
+    padding-left:25px;
+    padding-right:30px;
+    padding-bottom: 10px;
+}
+
+.div{
+    background-color:#111111;
+    height: 300px;
+}
+
+.p{
+    text-align:center;
+}
+
+.app{
+    background-color: black;
+}
+
+.dropdown{
+    background-color: #111111;
+}
+
+#names {
+    margin-bottom: 0rem;
+}
+
+html, body {
+    max-width: 100%; overflow-x: hidden;
+}
+
+@media (max-width: 991px){
+    .theimage{
+        padding-left:60px;
+        padding-top: 15px;
+    }
+
+    .card_container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .graph{
+        padding-left: 25px;
+        padding-right: 30px;
+    }
+}
+
+#dropdowncol{
+    border-radius: 5px;
+    margin:15px;
+    background-color: #111111;
+    padding: 15px;
+    position: relative;
+    height: auto;
+}
+
+
+.Select-value {
+    cursor: pointer;
+  }
+  
+  .Select-control {
+    color: #2b2738 !important;
+  }
+  
+  .Select {
+    color: #00df43 !important;
+  }
+  
+  .Select-menu-outer {
+    background-color: #2b2738 !important;
+    border: 1px solid #ffffff !important;
+  }
+  
+  .Select div {
+    background-color: #2b2738 !important;
+  }
+  
+  .Select-menu-outer div:hover {
+    background-color: rgba(255, 255, 255, 0.01) !important;
+    cursor: pointer;
+  }
+  
+  .Select-value-label {
+    color: #00df43 !important;
+  }
+  
+  .Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid #111111 !important;
+    border-radius: 4px !important;
+  }
